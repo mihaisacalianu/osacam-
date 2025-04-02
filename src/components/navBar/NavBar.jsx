@@ -7,11 +7,10 @@ export default function NavBar(){
     <>
       <div className="nav-bar items-center">
         <h2 className="nav-bar-title font-[900] text-red-900">OSACAM</h2>
-        <div className="flex w-[40%] items-center gap-4">
+        <div className="flex w-[40%] items-center gap-4 justify-end">
           <SearchBar />
           <ShoppingCart />
         </div>
-        <img src="" alt="nav bar logo image" className="nav-bar-logo"/>
       </div>
     </>
   );
